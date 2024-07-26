@@ -1,0 +1,163 @@
+#! Wordpress Setup 
+
+1. Go to XAMPP official website and download the latest version of XAMPP. Download the latest version of wordpress and copy the "wordpress" directory from the extracted archive to teh "htdocs" folder in the xampp folder.
+2. Start the XAMPP control panel.
+3. We will get error for MySQL port
+"
+12:41:08 PM  [main] 	Initializing Control Panel
+12:41:08 PM  [main] 	Windows Version:  Enterprise  64-bit
+12:41:08 PM  [main] 	XAMPP Version: 8.2.12
+12:41:08 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+12:41:08 PM  [main] 	You are not running with administrator rights! This will work for
+12:41:08 PM  [main] 	most application stuff but whenever you do something with services
+12:41:08 PM  [main] 	there will be a security dialogue or things will break! So think 
+12:41:08 PM  [main] 	about running this application with administrator rights!
+12:41:08 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:41:08 PM  [main] 	Checking for prerequisites
+12:41:08 PM  [main] 	All prerequisites found
+12:41:08 PM  [main] 	Initializing Modules
+12:41:08 PM  [mysql] 	Problem detected!
+12:41:08 PM  [mysql] 	Port 3306 in use by "Unable to open process"!
+12:41:08 PM  [mysql] 	MySQL WILL NOT start without the configured ports free!
+12:41:08 PM  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+12:41:08 PM  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+12:41:08 PM  [main] 	Starting Check-Timer
+12:41:08 PM  [main] 	Control Panel Ready
+"
+
+#? Steps to ressolve this error:
+
+a) The MySQL configuration file (my.ini) is located in the MySQL installation directory within your XAMPP installation. By default, this path is usually: "C:\xampp\mysql\bin\my.ini". Then change the port number from 3306 to 3307 in this file.
+
+b) The properties.ini file in xampp directory
+In the [MySQL] section, change the following lines:
+
+From:
+mysql_port=3306
+mysql_arguments=-u root -P 3306
+
+To:
+mysql_port=3307
+mysql_arguments=-u root -P 3307
+
+c) xampp-control.ini file in xampp directory
+In the [ServicePorts] section, change the following line:
+
+From:
+MySQL=3306
+
+To:
+MySQL=3307
+
+d) C:\xampp\phpMyAdmin\config.inc.php
+Set "$cfg['Servers'][$i]['host'] = '127.0.0.1';" to "127.0.0.1:3307"
+
+#? Steps to Follow
+* Stop XAMPP Services: Make sure all XAMPP services are stopped before making changes.
+* Edit Configuration Files: Open the properties.ini and xampp-control.ini files with a text editor and make the changes as described above.
+* Save the Files: Save the changes to the files.
+* Restart XAMPP: Start the XAMPP Control Panel and try running MySQL again.
+
+#! After resolving the error, start XAMPP.
+"
+12:56:36 PM  [main] 	Initializing Control Panel
+12:56:36 PM  [main] 	Windows Version:  Enterprise  64-bit
+12:56:36 PM  [main] 	XAMPP Version: 8.2.12
+12:56:36 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+12:56:36 PM  [main] 	You are not running with administrator rights! This will work for
+12:56:36 PM  [main] 	most application stuff but whenever you do something with services
+12:56:36 PM  [main] 	there will be a security dialogue or things will break! So think 
+12:56:36 PM  [main] 	about running this application with administrator rights!
+12:56:36 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:56:36 PM  [main] 	Checking for prerequisites
+12:56:36 PM  [main] 	All prerequisites found
+12:56:36 PM  [main] 	Initializing Modules
+12:56:36 PM  [main] 	Starting Check-Timer
+12:56:36 PM  [main] 	Control Panel Ready
+12:57:06 PM  [mysql] 	Attempting to start MySQL service...
+12:57:11 PM  [mysql] 	Status change detected: running
+12:57:14 PM  [Apache] 	Attempting to start Apache service...
+12:57:18 PM  [Apache] 	Status change detected: running
+"
+Now, we can observe that the error is resoved.
+
+Ques) What is the use of these 2 files?
+Ans) 
+* The properties.ini and xampp-control.ini files in XAMPP are configuration files that help define various settings for the XAMPP environment, including port numbers, file paths, and module configurations.
+
+** properties.ini
+This file contains configuration details for the different components within XAMPP, such as Apache, MySQL, and PHP. Key sections include:
+
+[General]: Specifies general settings like the installation directory and version information.
+[Apache]: Contains settings related to the Apache server, such as the server port, SSL port, and directories for configuration and document root.
+[MySQL]: Specifies MySQL settings, including the port number, host, directories for binary files, and data, as well as configuration details.
+[PHP]: Contains PHP-related settings, like the directory for PHP binaries and configuration files.
+The properties.ini file is mainly used for configuring the fundamental aspects of the XAMPP stack, including where components are located and which ports they use.
+
+**  xampp-control.ini
+This file is used by the XAMPP Control Panel to manage how the interface interacts with the various services (like Apache, MySQL, FileZilla, etc.) within XAMPP. Key sections include:
+
+[Common]: General settings for the XAMPP Control Panel, such as editor and browser preferences, debug settings, and language.
+[EnableModules]: Specifies which modules (e.g., Apache, MySQL) are enabled in the control panel.
+[LogSettings] and [WindowSettings]: Define the appearance of logs and the control panel window settings.
+[Autostart]: Specifies which services should start automatically when XAMPP starts.
+[ServicePorts]: Defines the default ports for various services, such as Apache, MySQL, FileZilla, etc.
+The xampp-control.ini file primarily manages the user interface and behavior of the XAMPP Control Panel, ensuring it knows how to start, stop, and configure the various services included in XAMPP.
+
+#! Start XAMPP Control Panel
+"
+01:09:11 PM  [main] 	Initializing Control Panel
+01:09:11 PM  [main] 	Windows Version:  Enterprise  64-bit
+01:09:11 PM  [main] 	XAMPP Version: 8.2.12
+01:09:11 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+01:09:11 PM  [main] 	You are not running with administrator rights! This will work for
+01:09:11 PM  [main] 	most application stuff but whenever you do something with services
+01:09:11 PM  [main] 	there will be a security dialogue or things will break! So think 
+01:09:11 PM  [main] 	about running this application with administrator rights!
+01:09:11 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+01:09:11 PM  [main] 	Checking for prerequisites
+01:09:12 PM  [main] 	All prerequisites found
+01:09:12 PM  [main] 	Initializing Modules
+01:09:12 PM  [Apache] 	XAMPP Apache Service is already running on port 80
+01:09:12 PM  [Apache] 	XAMPP Apache Service is already running on port 443
+01:09:12 PM  [mysql] 	XAMPP MySQL Service is already running on port 3307
+01:09:12 PM  [main] 	Starting Check-Timer
+01:09:12 PM  [main] 	Control Panel Ready
+"
+4. Go to MySQL Workbench and create a collection with port 3307
+5. Create a DB with name "wordpress" 
+
+6. Now go to your browser and visit "localhost/wordpress"
+7. You will get wp-admin configuration page.
+8. Fill in these details:
+[Database Name] : wordpress
+[Username] : root
+[Password] : 
+[Database Host] : localhost:3307
+[Table Prefix] : wp_
+9. Now run the installer
+
+10. Now fill in the details:
+[Site Title] : <your site title>
+[Username] : admin
+[Password] : admin
+[Email] : admin@cozentus.com
+
+11. Again click on "Install Wordpress" button and you will see a success message.
+12. Go to "http://localhost/wordpress/wp-login.php" and login.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#! Plugins Summary
+** Refer => "https://www.wpbeginner.com/showcase/24-must-have-wordpress-plugins-for-business-websites/"
+
+1. For Forms: WPForms, Forminator, Advanced Custom Fields(ACF)
+2. For Database Entries: Contact Form Entries, Database for WPforms
+3. For Website Designing: Elementor
+4. For SEO: All in One SEO
+5. Drag Drop Page Builder: SeedProd
+6. For Email: WP Mail SMTP
+7. For Performance: WP Rocket
+8. For Search Plugin: SearchWP
+9. Add Code Snippets: WPCode
+10. Best eCommerce Plugin: WooCommerce

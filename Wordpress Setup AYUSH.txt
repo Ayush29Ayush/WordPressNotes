@@ -1,6 +1,6 @@
 #! Wordpress Setup 
 
-1. Go to XAMPP official website and download the latest version of XAMPP. Download the latest version of wordpress and copy the "wordpress" directory from the extracted archive to teh "htdocs" folder in the xampp folder.
+1. Go to XAMPP official website and download the latest version of XAMPP. Download the latest version of wordpress and copy the "wordpress" directory from the extracted archive to the "htdocs" folder in the xampp folder.
 2. Start the XAMPP control panel.
 3. We will get error for MySQL port
 "
@@ -161,3 +161,22 @@ The xampp-control.ini file primarily manages the user interface and behavior of 
 8. For Search Plugin: SearchWP
 9. Add Code Snippets: WPCode
 10. Best eCommerce Plugin: WooCommerce
+11. Caching: LiteSpeed Cache
+
+#! Elementor Pro and ElementsKIT
+1. Go to "https://proelements.org/" and download the zip file. 
+2. Go to plugins and upload and activate it.
+3. Now go to "Add New Plugin" and install ElementsKIT.
+4. Now you have access to all the features of Elementor Pro. 
+
+#! Fix error: the following required php extensions are missing gd
+Open xampp control panel.
+Start apache and mysql.
+Click on config option of apache.
+Click on php. ini and open it.
+Press Ctrl + F and search "extension=" or "extension=fileinfo".
+On the next line to "extension=fileinfo", add "extension=gd".
+Save the file.
+Stop apache and restart it.
+
+#TODO => Always start the XAMPP Control Panel in admin mode

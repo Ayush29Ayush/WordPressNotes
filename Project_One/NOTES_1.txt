@@ -1,0 +1,133 @@
+#! NOTES for video => "https://www.youtube.com/watch?v=oIECtxoTa0s"
+
+► TIMESTAMPS
+
+Phase 1: Foundation
+00:00 - Introduction
+00:40 - Overview
+04:09 - Getting website hosting
+14:09 - Getting your domain name
+19:01 - Logging into your site
+
+Phase 2: Design
+19:50 - Phase 2 overview
+20:37 - Website dashboard
+21:39 - Set site title and tagline
+23:25 - Install website theme
+24:15 - Install design plugins
+26:33 - Choose website design
+33:14 - Change website style
+36:25 - Editing homepage
+36:56 - How to use Elementor page builder
+39:04 - Editing text
+39:37 - Undo changes
+39:57 - Editing buttons
+44:34 - Editing images
+45:55 - Finding free high quality images
+48:49 - Editing other elements
+51:33 - Building about page from scratch
+51:41 - How to find website inspiration
+53:00 - Deleting website elements
+53:35 - Adding sections
+54:02 - Adding background images
+56:35 - Add background gradient
+59:00 - Adding new text
+01:00:43 - Generating text with free AI
+01:02:10 - Changing position of elements in a section
+01:04:52 - Adding color boxes
+01:09:20 - Using page navigator
+01:21:52 - Editing services page
+01:22:02 - Adding subpages
+01:26:03 - Importing new page templates
+01:31:19 - Duplicating pages
+01:34:21 - Editing contact page
+01:34:53 - Adding Google map
+01:36:50 - Editing contact form
+01:50:36 - Adding custom form submitted page
+01:54:56 - Adding blog page
+01:57:26 - Designing blog page
+02:06:25 - Adding custom CSS code
+02:10:42 - Designing blog post
+02:17:56 - Generating blog posts with AI
+02:19:46 - Building site header
+02:29:35 - Adding pages to navigation menu
+02:33:17 - Adding subpages to navigation menu
+02:36:01: Editing site logo
+02:37:59 - Creating a free logo
+02:47:16 - Add site icon/favicon
+02:53:36 - Build site footer
+03:05:16 - Make site mobile friendly
+
+Phase 3: 
+03:24:10 - Phase 3 overview
+03:24:30 - Install SEO plugin
+03:34:05 - Setup Google Search Console
+03:42:34 - Setup Google reCAPTCHA
+03:50:44 - Improving site speed and performance
+04:03:39 - Creating additional website accounts
+04:06:51 - Adding website account profile pictures
+04:09:08 - Congratulations!
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. There are 3 phases to a Wordpress project:
+a) Phase - 1 : Foundation
+b) Phase - 2 : Development and Designing
+c) Phase - 3 : Enhancement
+** Refer the Overview.png image for more details.
+
+2. The left panel in the admin page is the most important which contains:
+a) Dashboard - The general home page.
+b) Posts - The page that contains all the posts.
+c) Media - The page that contains all the media.
+d) Pages - The page that contains all the pages.
+e) Comments - The page that contains all the comments.
+f) Appearance - The page that contains all the appearance settings like "Themes" and "Editor"
+g) Plugins - The page that contains all the installed plugins and their settings.
+h) Users - The page that contains all the users.
+i) Tools - The page that contains all the tools like "Import", "Export", "Site Health Check", etc.
+j) Settings - The page that contains all the settings like "General", "Reading", "Writing", "Discussion", etc.
+
+3. Go to the settings page and click on "General". Set the site title and tagline. Save the changes.
+4. Go to Appearance page and click on "Themes", then "Add new Theme", then search for "Astra" and install it. Activate the theme.
+5. Go to Plugins page and search for "Starter Templates" and "Templately", then install it. Activate the plugins.
+6. These 2 plugins will provide you various options to choose a theme of your choice.
+7. Now go to Appearance page and click on "Starter Templates" and fill in the details as per your requirements.
+8. Click on the builder on the top right side and select "Elementor". Save the changes.
+9. Now you will also have a "Templates" option in the left panel.
+10. From the dropdowns, select "Plumber" and select "Local Business" template. Clicking the template opens a preview page where you can make minor changes before installing it. Click on continue. Fill in basic details and click on "Submit and Build My Website". Upon successful completion, you will get these message:
+"
+Congratulations
+Your Website is ready and it took just 1.21 minutes to build.
+100%
+
+I just built my website in 1.21 minutes with Starter Templates by @AstraWP. Can’t believe how easy it was!!! 😍
+
+View Your Website
+Visit Dashboard
+"
+11. Now visit the page and click on "Customize" option present on the top panel.
+12. Go to "Global" and "Typography", make changes as per your requirements. Save the changes.
+#? Any of the fonts or any styles used in the entire website can be changed on an individual level.
+#! Install Elementor Pro from "https://proelements.org" and ELementsKIT and activate them.
+13. Now visit the page and click on "Edit with Elementor". View all the options and make changes as per your requirements. Save the changes.
+14. The Benifit of Elementor is that you have to just click on a selction from your website and the edit functionalities related to it will be displayed.
+15. Go to the last option shown when you click any section from the page. The option is "Custom CSS". Enter your custom CSS code and save the changes.
+https://elementor.com/help/css-selectors-in-elementor/
+"
+selector {border: solid red;}
+"
+16. When you get these options, they are distributed into 3 categories
+a) Content -> To change the content of the page like text, HTML Tag, etc.
+b) Style -> To change the style of the page like alignment, typography, text color, text shadow, etc.
+c) Advanced -> To change the advanced features of the page like margin, paddingg, width, Z-index, motions, responsiveness, etc.
+
+17. Use "Ctrl+Z" to undo and "Ctrl+Y" to redo.
+18. Add "Link" to a button and click on the "->" button to open Icon Library and select any icon from the library. Save the changes.
+19. If after the changes, the element is not looking good and you want to revert the changes, right click on the button and select "Reset Style", this will revert all the changes for that element to the global settings.
+20. Explore each option from the Style and Advanced section. 
+
+21. Get high quality images from "https://unsplash.com" and use them in your website.
+22. Do not directly download the image with its default size as it may be high in size and this will increase the load time of your website, instead download the medium sized image which will be smaller in size and adequate for majority of cases.
+
+#! How to find website inspiration?
+1. Go to "dribbble.com" and then to the inspiration section. Search for your requirement like "about page".

@@ -170,13 +170,27 @@ The xampp-control.ini file primarily manages the user interface and behavior of 
 4. Now you have access to all the features of Elementor Pro. 
 
 #! Fix error: the following required php extensions are missing gd
-Open xampp control panel.
-Start apache and mysql.
-Click on config option of apache.
-Click on php. ini and open it.
-Press Ctrl + F and search "extension=" or "extension=fileinfo".
-On the next line to "extension=fileinfo", add "extension=gd".
-Save the file.
-Stop apache and restart it.
+1. Open Xampp
+2. Click Stop Button to Stop Apache (If You Have Other Services on Just Stop All of Them)
+3. Click Config Button
+4. Click PHP (php.ini)
+5. Now Press CTRL + F on Your Keyboard To Open Find Box
+6. Type extension=zip in Text Box
+7. Make Sure Direction is Set To Down
+8. Now Click Find Next Button
+9. Remove the semicolon (;) before 'extension=zip.' (If you can't find 'extension=zip,' then manually type it)
+10. Type extension=gd in Text Box
+11. Now Click Find Next Button
+12. If You See a 'cannot Find' Message, Then Click the OK Button and Then Change the Direction. I Will Change It to Up
+13. Now Again Click Find Next Button
+14. Remove the semicolon (;) before 'extension=gd.' (If you can't find 'extension=gd,' then manually type it)
+15. Close Find Box
+16. Click File
+17. Click Save
+18. Click Close
+19. Again Start Apache & Whatever Servies You Where Using
+20. Now Minimize Xampp
+21. Now Check if Zip Extension & gd Extension is Installed
+22. Done!
 
 #TODO => Always start the XAMPP Control Panel in admin mode

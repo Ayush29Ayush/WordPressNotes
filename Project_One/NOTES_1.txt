@@ -130,4 +130,89 @@ c) Advanced -> To change the advanced features of the page like margin, paddingg
 22. Do not directly download the image with its default size as it may be high in size and this will increase the load time of your website, instead download the medium sized image which will be smaller in size and adequate for majority of cases.
 
 #! How to find website inspiration?
-1. Go to "dribbble.com" and then to the inspiration section. Search for your requirement like "about page".
+* Go to "dribbble.com" and then to the inspiration section. Search for your requirement like "about page".
+* https://dribbble.com/shots/23159968-About-Us-page-Concept
+
+#! Deleting website elements
+* Go to the end of the page where the elementor card is present, right click on it and click on the "Delete All Content" button.
+
+#! Adding Sections
+* Click on the "+" icon, then select "Flexbox" and then direction of that container.
+
+#! Adding Background Image
+1. Select the "Style" section from the "Edit Container" option.
+2. Go to Background, then select Background type as "Classic" and you will get the option to add a background image.
+3. Now go to the layout section and set a "Min Height" of that container.
+4. Again go to "Style" section, in "Background", set Display Size as "Cover" 
+
+#! Adding Gradient to the Image
+5. Now in Background Overlay, select Background Type as "Gradient". 
+6. Change the "Color" to the left most side of the bar i.e white
+7. Change the "Second Color" to the right most side of the bar i.e black
+8. Change the "Location" to 80 and Opacity to 0.75.
+9. Explore the other options and make changes as per your requirements.
+
+#! Adding Text
+1. Click the "+" icon, then select "Heading" and then select the "Content" section. Type down the required text.
+2. Now go to the "Style" section and select "Text Color" and change the color to white.
+3. For SEO purposes, always have some H1 tags as heading.
+4. Now again click the "+" icon and drag drop a "text editor" beneath the heading text.
+5. Generate some professional text for this about pafge from any free AI generative tool like Google Gemini.
+6. Set text color to white.
+
+#! Changing position of elements in a section
+1. Right click on the container and select "Edit Container"
+2. Go to "Layout" and set justify content to "End"
+3. Now change Content Width from "Full Width" to "Boxed" and set width to around 700px
+4. Now click on the heading and the text below and set their alignment to "center"
+
+#! To add space between elements
+1. Search for a widget called "Spacer" and drag drop it to the required area.
+2. Change the space property of the spacer to 30px as per the requirement.
+
+#! Adding color boxes
+1. Click on the "+" icon, then select "Flexbox" and then direction of that container.
+2. In the "Edit Container", go to "Style" and select "Background" to "white".
+3. Now add another container inside this container.
+4. Now using the chrome extension "Color Zilla", get the color code of the box from the inspirational page.
+
+5. We can copy paste elements from one container to another.
+6. Copy paste the heading from the first container to the second container
+7. Set it as H2 tag and change the color to global default color by clicking the anti clockwise button inside the text color option
+8. Change text to "Our Vision"
+
+9. Now copy paste the text paragraph from the first container to the second container.
+10. Make changes as before like resetting the text color to global default color, etc.
+11. Get the text for our vision from Gemini.
+
+#! Using Page Navigator/ Structure in Elementor
+1. Click on the Burger Menu like icon on the top left side of the screen.
+2. Click on the element you want to work on without any hassle.
+3. Select the first container and set padding to 120px 10px 120px 10px as per the requirement.
+4. Select the second container and set padding to 80px 80px 80px 80px as per the requirement.
+5. Select the Style tab and set border radius to 30px.
+
+#! Next Section
+1. Click on the "+" icon, then select "Flexbox" and then direction of that container.
+2. Set color of that container to black and padding to 120px 10px 120px 10px.
+
+#! Next Section
+1. Click on the "+" icon, then select "Flexbox" and then set the 3rd direction i.e 2 column in one row for that container.
+2. Now set a background image by downloading a relevant image from unsplash.com.
+3. Change display size to "Cover".
+4. Now increase the height of the container by either setting the "Min Height" to 800px or by setting padding to 240px 10px 240px 10px by inlinking the padding first.
+5. Copy paste the heading to the first division and change the text.
+6. Duplicate the heading in the first division by right clicking the heading and selecting "Duplicate". Set it to H6 tag.
+7. Get a button using drag drop and place it below the heading.
+8. Change the text and set the link url to contact page by typing "contact"
+9. To read the text better, we need to add a background overlay.
+10. To to edit container for the primary container and select the Style tag.
+11. Select the "Background Overlay" and select Classic, and set color to black.
+
+#TODO => Always set the size of the text by using HTML tags like H1, H2, etc rather than going to the style tab and setting the size. This will help get consistency and professionality in the website.
+Also if ever we need to change the size of these headings, we can just go to "Customize" section of the wordpress top menu and select "Global", then "Typography" and change the heading font for H1, H2, etc accordingly. 
+
+#! Responsiveness
+1. Click on the responsive mode which contains 3 icons for mobile, tablet and desktop.
+
+-------------------------------------------------------------------------

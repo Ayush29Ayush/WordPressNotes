@@ -216,3 +216,53 @@ Also if ever we need to change the size of these headings, we can just go to "Cu
 1. Click on the responsive mode which contains 3 icons for mobile, tablet and desktop.
 
 -------------------------------------------------------------------------
+
+#! Editing Services Page
+1. Click on the Services page and click "Edit with Elementor".
+2. Add a button widget below the first card and change its text to "Learn More". Leave the link empty for now.
+3. Now right click on that button and select "Copy" and paste it below text of every card.
+4. Delete the "Book a Consultation" button by right clicking on the button and selecting delete.
+5. Now we can observe that the "Learn More" butttons in each card is not aligned properly. 
+6. To fix this, go to the "Structure" option and select the container for the card. Now set "Justify Content" to "Space Between". Do the same for the rest of the cards.
+#? Trick
+7. Another approach to do this is to set the "Justify Content" to "Space Between" for the first container and then right click on the container and select "Copy" and then right click on the other containers and select "Paste Style".
+
+#! Adding Subpages
+1. Go to the backend or the wp-admin and go to pages. Click on Add New Page
+2. Turn off the "Full Screen Mode" by clicking on the 3 dots on the top right corner of the page.
+3. Now click on "Page Attributes" and set "Parent" to Services.
+4. To to the backend and the Pages tab, you will now be able to see the newly added subpage with a prefix of "-"
+
+#! Importing New Page Templates
+1. Edit the "Drain Cleaning & Repair" page and click on "Edit with Elementor".
+2. Now click the "Starter Templates" option.
+3. Select the Pages option to get the entire page but beside it lies a option of Blocks which allows us to add individual blocks to the page.
+4. Select a page from the given options and click on Import Template. (Roofing Agency - About Page)
+5. Now since we don't like the header of the page, we can delete that container. Now open a new tab and go to the services page and click edit with elementor.
+6. Copy the header of the services page by clicking on the header and select "Copy" and then go back to the subbpage and add a new container and right click on it and select "Paste".
+7. Make changes to the header section and delete the containers from the page which we do not need.
+
+#! Duplicating Pages
+1. Install a new plugin called "Duplicate Page".
+2. Now go to the pages tab and below each page, you will get a new option called "duplicate this".
+3. Duplicate the new subpage 6 times for 6 different cards.
+4. Now to edit these 6 subpages, rather than clicking the edit option, use the quick edit option and change the title and other details as needed. By default, these pages have status as "Draft", change it to published.
+5. Copy paste the titles of the cards to these subpages title.
+6. Now go the the services page and edit with elementor. Set the respective links to the respective buttons for the 6 cards used.
+7. Make changes to these subpages to make it unique for each card as now we just have duplicates of "Drain Cleaning & Repair" page.
+
+---------------------------------------------------------------------------
+
+#! Editing Contact Page
+1. Go to the contact page and click on edit with elementor.
+
+#! Adding Google Maps
+1. Click on the elementor container and select the "Starter Templates" option.
+2. Go to blocks and search for "Contact Form". Select the option you like and click on "Import Block". Delete the extra containers from the block.
+3. To change the location shown in the map, go to structure and select the section and Google Maps within it. Change the location to your location. 
+
+#! Editing Contact Form
+1. Use the WPForms plugin for creating and editing contact forms.
+2. Click on the form in the page and select the option "Edit the selected form".
+3. This will redirect you to the WPForms page where you can create edit and explore various options related to the form.
+#TODO => Refer from "01:37:00" to "01:50:00"

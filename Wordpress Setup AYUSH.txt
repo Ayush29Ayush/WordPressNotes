@@ -162,6 +162,7 @@ The xampp-control.ini file primarily manages the user interface and behavior of 
 9. Add Code Snippets: WPCode
 10. Best eCommerce Plugin: WooCommerce
 11. Caching: LiteSpeed Cache
+12. Duplicating: Duplicate Page
 
 #! Elementor Pro and ElementsKIT
 1. Go to "https://proelements.org/" and download the zip file. 

@@ -282,3 +282,39 @@ Also if ever we need to change the size of these headings, we can just go to "Cu
 4. Go to pages and create a new page and name it as "Blog".
 5. Now go to the wp-admin and hover on settings and click on "Reading Settings".
 6. Set Posts page to "Blog" and click save.
+
+#! Designing Blog Page
+1. To understand the default design of the blog page, we need some more blogs. So either we can add blogs manually or we can use a plugin to add dummy blog posts.
+2. To generate fake content, install plugin called "FakerPress".
+3. On the left side bar, you can now see a plugin called "FakerPress". Hover over it and click on "Posts".
+4. Set Quantity field to 12 to 24 and click generate.
+5. Now go to the blog page and click Customize.
+6. Select Blog option and then "Blog/Archive". Select the GENERAL tab.
+7. Now from the available options, go to "BLOG LAYOUT" and select the "Cover" layout.
+8. Go to POSTS STRUCTURE to set Post Elements and Meta accordingly.
+9. Set post per page to 12 so that we have even rows.
+10. Set Background Overlay to Blue color and reduce the opacity to 30%.
+
+#! Adding Custom CSS code
+1. Use "Ctrl+Shift+I" to open the inspect mode in Chrome.
+2. Hover on the div which covers the entire 1st card and set its height from 100% to 400px.
+3. Now copy that code snippet as we will use it as custom CSS.
+"
+.ast-separate-container .ast-blog-layout-6-grid .ast-article-inner, .ast-plain-container .ast-blog-layout-6-grid .ast-article-inner {
+    height: 400px;
+}
+"
+4. Now go back to the main menu where the Additional CSS option is available at the end.
+5. Click on the "Additional CSS" option and paste the code snippet.
+6. Click on the publish button.
+
+#? You can use Astra Pro to design your website without custom CSS.
+
+#! Designing Blog Post
+1. Now go to the blog page and click on the first post.
+2. Click on customize, then blog, then "Single Post".
+Now I want the title of the blog post inside the image.
+3. Click on "Post Title Area" and select "Layout 2" from the Banner Layout.
+4. Set Container Width to "Full Width" and in the Structure option, enable the "Use as background". Due to a bug in Wordpress, you will not be able to see the changes immediately. Also change the overlay color and its opacity according to your needs. You will have to disable and enable the "Featured Image" option to see the changes.
+5. Now go to the Design tab and select the Title Color, Text Color, Link Color to white. Again you will have to disable and enable the "Featured Image" option to see the changes.
+6. Now go to the General tab again and disable Comments and Taxonomies and enable Author and Date under Meta section.

@@ -266,3 +266,19 @@ Also if ever we need to change the size of these headings, we can just go to "Cu
 2. Click on the form in the page and select the option "Edit the selected form".
 3. This will redirect you to the WPForms page where you can create edit and explore various options related to the form.
 #TODO => Refer from "01:37:00" to "01:50:00"
+
+#! Adding custom form submitted page
+1. Create a new page and name it as "Form Confirmation". Save it and select "Edit with Elementor".
+2. We will use a premade block template so click on starter templates plugin and go to block section. Select the block you like and click on "Import Block".
+3. Make changes to the heading, subheading and the button.
+4. Now to to the WPForms and select the Contact Form.
+5. Now select the "Settings" tab from the left side bar and go to Confirmations. Set Confirmation Type to "Show Page" and Confirmation Page to "Form Confirmation".
+
+#! Adding Blog Page
+1. Adding a blog page with trending questions and answers posts will help gain trust of customers that you are a expert in your field.
+2. Another big benifit of having blog on your website is that you get SEO(Search Engine Optimization) benifits from it.
+3. SEO => The process of improving your sites visibility in search engines to get more organic traffic to your website.
+
+4. Go to pages and create a new page and name it as "Blog".
+5. Now go to the wp-admin and hover on settings and click on "Reading Settings".
+6. Set Posts page to "Blog" and click save.

@@ -318,3 +318,48 @@ Now I want the title of the blog post inside the image.
 4. Set Container Width to "Full Width" and in the Structure option, enable the "Use as background". Due to a bug in Wordpress, you will not be able to see the changes immediately. Also change the overlay color and its opacity according to your needs. You will have to disable and enable the "Featured Image" option to see the changes.
 5. Now go to the Design tab and select the Title Color, Text Color, Link Color to white. Again you will have to disable and enable the "Featured Image" option to see the changes.
 6. Now go to the General tab again and disable Comments and Taxonomies and enable Author and Date under Meta section.
+7. In Author, change the Prefix label and enable the Author Avatar.
+8. Now go back to the Singe Post General Post and under Sidebar Layout, select the "Right Sidebar" option. This was just for trial, revert it back to default.
+9. Publish the changes.
+
+------------------------------------------------------------------
+
+#! Generating blog posts with AI
+* This option is available if you use Hostinger as your hosting provider.
+------------------------------------------------------------------
+
+#! Building Site Header
+1. Go to the home page and select "Customize".
+2. Click on Header Builder.
+3. We have 2 tabs, "Elements" and "Design"
+4. You will get lots of options in the left panel but the most useful one is the elongated bar on the main screen which for this theme consists of "Above Header", "Primary Header" and "Below Header".
+5. The primary header consists of: "Site Title & Logo", "Primary Menu", "HTML 2", "Button".
+6. You can drag drop and set the placement of the elements as you wish. I deleted the "HTML 2" element and set the "Primary Menu" to center.
+7. Click onn the top right portion from the "Above Header" and add "Social".
+8. Now click on the social icons menu and make changes to the icons. Go to the Design tab and make changes to the icons as you wish.
+9. Click on the Primary Menu and select "Configure Menu From Here".
+10. The "Off-Canvas Menu" is by default set same as the "Primary Menu" but it is for mobile version. When in mobile version, you will see a hamburger icon at the top right corner. Click on it to get the menu in the mobile version.
+
+#! Adding pages to navigation menu
+11. Go to the main menu and select "Menus", you will see the "Primary Menu". Inside that menu you will get all the pages linked to it along with a option to "Add Items". Add the blog page.
+12. Explore other options available like "Custom Links", "Pages", "Posts", "Floating Buttons", "Categories", "Tags" and "Formats".
+
+#! Adding subpages to navigation menu
+1. Click on Add Items and add the pages to the main Primary Menu first. Then Drag Drop each page under the services.
+
+#! Editing site logo
+1. Go to the Customize section and click on the logo.
+2. Delete the default logo and upload your own logo. 
+#? Always use logo in PNG format as it is easier to edit and get a  transparent background.
+
+#! Creating a free logo
+1. Use canva.com to create a logo.
+2. Then go to the Customize section and click on the logo.
+3. Delete the default logo and upload your own logo.
+
+#! Add site icon/favicon
+1. Go to main menu and click on "Site Identity".
+2. Go to canva.com and create a favicon.
+3. Then upload your favicon and save it.
+
+----------------------------------------------------------------

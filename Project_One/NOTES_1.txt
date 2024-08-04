@@ -335,7 +335,7 @@ Now I want the title of the blog post inside the image.
 4. You will get lots of options in the left panel but the most useful one is the elongated bar on the main screen which for this theme consists of "Above Header", "Primary Header" and "Below Header".
 5. The primary header consists of: "Site Title & Logo", "Primary Menu", "HTML 2", "Button".
 6. You can drag drop and set the placement of the elements as you wish. I deleted the "HTML 2" element and set the "Primary Menu" to center.
-7. Click onn the top right portion from the "Above Header" and add "Social".
+7. Click on the top right portion from the "Above Header" and add "Social".
 8. Now click on the social icons menu and make changes to the icons. Go to the Design tab and make changes to the icons as you wish.
 9. Click on the Primary Menu and select "Configure Menu From Here".
 10. The "Off-Canvas Menu" is by default set same as the "Primary Menu" but it is for mobile version. When in mobile version, you will see a hamburger icon at the top right corner. Click on it to get the menu in the mobile version.
@@ -363,3 +363,18 @@ Now I want the title of the blog post inside the image.
 3. Then upload your favicon and save it.
 
 ----------------------------------------------------------------
+
+#! Building site footer (02:54:00 - 03:06:00)
+1. Go to the Customize section and click on the footer builder.
+2. Again you will see a elongated bar on the main screen which for this theme consists of "Above Footer", "Primary Footer" and "Below Footer".
+3. Then make customizations as you wish.
+4. Create a new menu for the footer.
+
+#! Make site mobile friendly
+1. Click on the responsive icon on the bottom left corner. You will see "Desktop", "Tablet" and "Mobile" options.
+2. Click on mobile and make changes as you wish. These changes will be applied only to the mobile version.
+
+#TODO => When using any pre build theme from elementor, you will by default get responsive design for each case but when making the theme from scratch by yourself, you will not get responsive design and have to set it manually.
+-----------------------------------------------------------------
+
+---------------------Phase - 2 Completed-------------------------
